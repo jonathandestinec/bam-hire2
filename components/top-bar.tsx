@@ -28,9 +28,10 @@ export function TopBar() {
             </SelectContent>
           </Select>
         </div>
+
         <Link
           href="#"
-          className="text-xs text-muted-foreground hover:text-foreground"
+          className="hidden text-xs text-muted-foreground hover:text-foreground md:block"
         >
           LOOKING FOR ONE OF OUR SPECIALTY BRANDS?
         </Link>
