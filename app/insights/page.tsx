@@ -98,8 +98,9 @@ export default function InsightsPage() {
                         Article Title Goes Here
                       </CardTitle>
                       <CardDescription className="line-clamp-3">
-                        A brief description of the article content goes here,
-                        providing a summary of what readers can expect to learn.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Repellat ipsam aut natus quaerat? Provident
+                        blanditiis voluptas facere iusto odio explicabo!
                       </CardDescription>
                     </CardHeader>
                     <CardContent>

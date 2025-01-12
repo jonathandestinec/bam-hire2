@@ -155,8 +155,9 @@ export default function AboutPage() {
                     Executive Position
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    Brief description of the executive&apos;s role and
-                    experience at Bamhire.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                    a excepturi ipsa laudantium ea expedita quod soluta iusto
+                    sunt odio.
                   </p>
                 </CardContent>
               </Card>
