@@ -21,13 +21,13 @@ export default function InvestorsPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-green-800 px-4 py-16 text-white md:py-24">
+      <section className="bg-[#a1a484] px-4 py-16 text-white md:py-24">
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="mb-6 text-4xl font-bold md:text-5xl">
               Investor Relations
             </h1>
-            <p className="text-xl text-green-50">
+            <p className="text-xl text-[#a1a484]">
               Access financial information, reports, and updates about
               Bamhire&apos;s performance and growth strategy.
             </p>
@@ -70,7 +70,7 @@ export default function InvestorsPage() {
             ].map((stat) => (
               <Card key={stat.title}>
                 <CardContent className="pt-6">
-                  <stat.icon className="mb-4 h-8 w-8 text-green-700" />
+                  <stat.icon className="mb-4 h-8 w-8 text-[#a1a484]" />
                   <div className="text-3xl font-bold">{stat.value}</div>
                   <div className="font-semibold">{stat.title}</div>
                   <div className="text-sm text-muted-foreground">
@@ -130,7 +130,7 @@ export default function InvestorsPage() {
                       <Button
                         variant="ghost"
                         size="sm"
-                        className="text-green-700 hover:text-green-800"
+                        className="text-[#a1a484] hover:text-[#a1a484]"
                       >
                         <Download className="mr-2 h-4 w-4" />
                         Download
@@ -214,7 +214,7 @@ export default function InvestorsPage() {
                 </div>
                 <Button
                   asChild
-                  className="bg-green-800 text-white hover:bg-green-900"
+                  className="bg-[#a1a484] text-white hover:bg-[#a1a484]"
                 >
                   <Link href="/contact">Contact IR Team</Link>
                 </Button>

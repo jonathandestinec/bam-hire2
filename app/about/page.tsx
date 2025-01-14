@@ -8,14 +8,14 @@ export default function AboutPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-green-800 px-4 py-16 text-white md:py-24">
+      <section className="bg-[#a1a484] px-4 py-16 text-white md:py-24">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-12 lg:grid-cols-2">
             <div className="space-y-6">
               <h1 className="text-4xl font-bold leading-tight md:text-5xl lg:text-6xl">
                 Pioneering the Future of Work
               </h1>
-              <p className="text-xl text-green-50">
+              <p className="text-xl text-white">
                 For over two decades, Bamhire has been at the forefront of
                 workforce innovation, connecting talented individuals with
                 opportunities that matter.
@@ -69,7 +69,7 @@ export default function AboutPage() {
             ].map((value) => (
               <Card key={value.title} className="border-none bg-gray-50">
                 <CardContent className="pt-6">
-                  <value.icon className="mb-4 h-8 w-8 text-green-700" />
+                  <value.icon className="mb-4 h-8 w-8 text-[#a1a484]" />
                   <h3 className="mb-2 text-xl font-semibold">{value.title}</h3>
                   <p className="text-muted-foreground">{value.description}</p>
                 </CardContent>
@@ -100,7 +100,7 @@ export default function AboutPage() {
               </div>
               <Button
                 asChild
-                className="bg-green-800 text-white hover:bg-green-900"
+                className="bg-[#a1a484] text-white hover:bg-[#a1a484] hover:text-white"
               >
                 <Link href="/contact">Connect With Us</Link>
               </Button>
@@ -108,19 +108,19 @@ export default function AboutPage() {
             <div className="grid gap-4">
               <div className="grid gap-4 md:grid-cols-2">
                 <div className="space-y-2 rounded-lg bg-white p-6 shadow-sm">
-                  <h3 className="text-4xl font-bold text-green-700">20+</h3>
+                  <h3 className="text-4xl font-bold text-[#a1a484]">20+</h3>
                   <p className="text-muted-foreground">Years of Excellence</p>
                 </div>
                 <div className="space-y-2 rounded-lg bg-white p-6 shadow-sm">
-                  <h3 className="text-4xl font-bold text-green-700">50+</h3>
+                  <h3 className="text-4xl font-bold text-[#a1a484]">50+</h3>
                   <p className="text-muted-foreground">Countries Worldwide</p>
                 </div>
                 <div className="space-y-2 rounded-lg bg-white p-6 shadow-sm">
-                  <h3 className="text-4xl font-bold text-green-700">1M+</h3>
+                  <h3 className="text-4xl font-bold text-[#a1a484]">1M+</h3>
                   <p className="text-muted-foreground">Lives Impacted</p>
                 </div>
                 <div className="space-y-2 rounded-lg bg-white p-6 shadow-sm">
-                  <h3 className="text-4xl font-bold text-green-700">10K+</h3>
+                  <h3 className="text-4xl font-bold text-[#a1a484]">10K+</h3>
                   <p className="text-muted-foreground">Client Companies</p>
                 </div>
               </div>
@@ -167,12 +167,12 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-green-800 px-4 py-16 text-white md:py-24">
+      <section className="bg-[#a1a484] px-4 py-16 text-white md:py-24">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="mb-6 text-3xl font-bold md:text-4xl">
             Join Our Growing Team
           </h2>
-          <p className="mb-8 text-lg text-green-50">
+          <p className="mb-8 text-lg text-white">
             Be part of a company that&apos;s shaping the future of work. Explore
             career opportunities at Bamhire.
           </p>
@@ -180,7 +180,7 @@ export default function AboutPage() {
             asChild
             variant="outline"
             size="lg"
-            className="bg-transparent text-white hover:bg-white hover:text-green-800"
+            className="bg-transparent text-white hover:bg-white hover:text-[#a1a484]"
           >
             <Link href="/careers">View Open Positions</Link>
           </Button>

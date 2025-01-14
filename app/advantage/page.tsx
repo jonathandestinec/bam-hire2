@@ -8,14 +8,14 @@ export default function AdvantagePage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-green-800 px-4 py-16 text-white md:py-24">
+      <section className="bg-[#a1a484] px-4 py-16 text-white md:py-24">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-12 lg:grid-cols-2">
             <div className="space-y-6">
               <h1 className="text-4xl font-bold leading-tight md:text-5xl lg:text-6xl">
                 The Bamhire Advantage
               </h1>
-              <p className="text-xl text-green-50">
+              <p className="text-xl text-[#a1a484]">
                 Discover why leading companies choose Bamhire for their
                 workforce solutions. Our innovative approach and global reach
                 set us apart.
@@ -81,7 +81,7 @@ export default function AdvantagePage() {
             ].map((solution) => (
               <Card key={solution.title}>
                 <CardContent className="pt-6">
-                  <solution.icon className="mb-4 h-8 w-8 text-green-700" />
+                  <solution.icon className="mb-4 h-8 w-8 text-[#a1a484]" />
                   <h3 className="mb-2 text-xl font-semibold">
                     {solution.title}
                   </h3>
@@ -124,7 +124,7 @@ export default function AdvantagePage() {
                   <Button
                     asChild
                     variant="link"
-                    className="p-0 text-green-700 hover:text-green-800"
+                    className="p-0 text-[#a1a484] hover:text-[#a1a484]"
                   >
                     <Link href="#">Read Case Study</Link>
                   </Button>
@@ -167,12 +167,12 @@ export default function AdvantagePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-green-800 px-4 py-16 text-white md:py-24">
+      <section className="bg-[#a1a484] px-4 py-16 text-white md:py-24">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="mb-6 text-3xl font-bold md:text-4xl">
             Ready to Experience the Bamhire Advantage?
           </h2>
-          <p className="mb-8 text-lg text-green-50">
+          <p className="mb-8 text-lg text-[#a1a484]">
             Let&apos;s discuss how our solutions can help you achieve your
             workforce goals.
           </p>
@@ -180,7 +180,7 @@ export default function AdvantagePage() {
             asChild
             variant="outline"
             size="lg"
-            className="bg-transparent text-white hover:bg-white hover:text-green-800"
+            className="bg-transparent text-white hover:bg-white hover:text-[#a1a484]"
           >
             <Link href="/contact">Contact Our Team</Link>
           </Button>

@@ -15,13 +15,13 @@ export default function InsightsPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-green-800 px-4 py-16 text-white md:py-24">
+      <section className="bg-[#a1a484] px-4 py-16 text-white md:py-24">
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="mb-6 text-4xl font-bold md:text-5xl">
               News & Insights
             </h1>
-            <p className="text-xl text-green-50">
+            <p className="text-xl text-[#a1a484]">
               Stay informed with the latest workforce trends, industry insights,
               and company updates from Bamhire.
             </p>
@@ -53,7 +53,7 @@ export default function InsightsPage() {
                     />
                   </div>
                   <div className="p-6 md:p-8">
-                    <Badge className="mb-4 bg-green-100 text-green-800">
+                    <Badge className="mb-4 bg-[#a1a484] text-white">
                       Featured
                     </Badge>
                     <h2 className="mb-4 text-2xl font-bold md:text-3xl">
@@ -66,7 +66,7 @@ export default function InsightsPage() {
                     </p>
                     <Button
                       asChild
-                      className="bg-green-800 text-white hover:bg-green-900"
+                      className="bg-[#a1a484] text-white hover:bg-[#8b9467]"
                     >
                       <Link href="#">Read More</Link>
                     </Button>
@@ -107,7 +107,7 @@ export default function InsightsPage() {
                       <Button
                         asChild
                         variant="link"
-                        className="p-0 text-green-700 hover:text-green-800"
+                        className="p-0 text-[#a1a484] hover:text-[#8b9467]"
                       >
                         <Link href="#">Read More</Link>
                       </Button>
@@ -121,7 +121,7 @@ export default function InsightsPage() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="border-green-800 text-green-800 hover:bg-green-50"
+                  className="border-[#a1a484] text-[#a1a484] hover:bg-[#d3d2c8]"
                 >
                   Load More Articles
                 </Button>
@@ -161,7 +161,7 @@ export default function InsightsPage() {
             />
             <Button
               type="submit"
-              className="bg-green-800 text-white hover:bg-green-900 sm:w-auto"
+              className="bg-[#a1a484] text-white hover:bg-[#8b9467] sm:w-auto"
             >
               Subscribe
             </Button>

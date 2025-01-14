@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main>
       <section className="grid md:grid-cols-2">
-        <div className="flex flex-col justify-center bg-green-800 px-4 py-20 text-white md:px-12 md:py-32">
+        <div className="flex flex-col justify-center bg-[#a1a484] px-4 py-20 text-white md:px-12 md:py-32">
           <div className="mx-auto max-w-xl">
             <h1 className="mb-6 text-4xl font-medium leading-tight md:text-5xl">
               Connecting people to limitless opportunities.
@@ -26,7 +26,7 @@ export default function Home() {
             <Button
               asChild
               variant="outline"
-              className="w-fit bg-transparent text-white hover:bg-white hover:text-green-800"
+              className="w-fit bg-transparent text-white hover:bg-white hover:text-[#a1a484]"
             >
               <Link href="/jobs" className="group">
                 Explore jobs

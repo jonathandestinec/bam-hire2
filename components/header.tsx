@@ -15,7 +15,7 @@ export function Header() {
   return (
     <header className="border-b">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
-        <Link href="/" className="text-2xl font-bold text-green-700">
+        <Link href="/" className="text-2xl font-bold text-[#a25f35]">
           Bamhire
         </Link>
 
@@ -28,7 +28,7 @@ export function Header() {
                   <li className="row-span-3">
                     <NavigationMenuLink asChild>
                       <Link
-                        className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-green-500 to-green-700 p-6 no-underline outline-none focus:shadow-md"
+                        className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-[#a25f35] to-[#ae7a52] p-6 no-underline outline-none focus:shadow-md"
                         href="/"
                       >
                         <div className="mt-4 text-lg font-medium text-white">

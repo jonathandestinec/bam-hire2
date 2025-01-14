@@ -34,7 +34,7 @@ export function MobileMenu() {
           <SheetTitle>
             <Link
               href="/"
-              className="text-2xl font-bold text-green-700"
+              className="text-2xl font-bold text-[#a25f35]"
               onClick={() => setOpen(false)}
             >
               Bamhire

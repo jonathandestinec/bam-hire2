@@ -31,7 +31,7 @@ export function NewsSection() {
               <CardHeader>
                 <Badge
                   variant="secondary"
-                  className="w-fit bg-green-100 text-green-800"
+                  className="w-fit bg-[#a1a484] text-white"
                 >
                   {item.category}
                 </Badge>
@@ -40,7 +40,7 @@ export function NewsSection() {
                 <h3 className="text-xl font-semibold">{item.title}</h3>
                 <Link
                   href={item.link}
-                  className="inline-flex items-center gap-2 text-green-700 hover:underline"
+                  className="inline-flex items-center gap-2 text-[#82b8c2] hover:underline"
                 >
                   Read more
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />

@@ -15,9 +15,9 @@ export function TalentSection() {
               className="object-cover"
             />
           </div>
-          <div className="flex flex-col justify-center bg-green-50 p-8 lg:p-16">
+          <div className="flex flex-col justify-center bg-[#a1a484] p-8 lg:p-16">
             <div className="mx-auto max-w-lg">
-              <h2 className="mb-6 text-3xl font-bold lg:text-4xl">
+              <h2 className="mb-6 text-3xl font-bold lg:text-4xl text-white">
                 Transform your global talent strategy with BamOCG.
               </h2>
               <p className="mb-8 text-muted-foreground">
@@ -27,7 +27,7 @@ export function TalentSection() {
               </p>
               <Button
                 asChild
-                className="w-fit bg-green-800 text-white hover:bg-green-900"
+                className="w-fit bg-[#a25f35] text-white hover:bg-[#a25f35]"
               >
                 <Link href="#">EXPLORE GLOBAL SOLUTIONS</Link>
               </Button>
