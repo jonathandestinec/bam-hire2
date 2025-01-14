@@ -66,13 +66,13 @@ export default function JobsPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-green-800 px-4 py-16 text-white md:py-24">
+      <section className="bg-[#a25f35] px-4 py-16 text-white md:py-24">
         <div className="mx-auto max-w-7xl">
           <div className="text-center">
             <h1 className="mb-6 text-4xl font-bold md:text-5xl lg:text-6xl">
               Find Your Next Career Opportunity
             </h1>
-            <p className="mx-auto mb-8 max-w-2xl text-xl text-green-50">
+            <p className="mx-auto mb-8 max-w-2xl text-xl text-white">
               Explore thousands of job openings with all the information you
               need. Its your future.
             </p>
@@ -86,7 +86,7 @@ export default function JobsPage() {
                 <Input
                   id="search"
                   placeholder="Job title, keywords, or company"
-                  className="h-12 w-full bg-white text-black"
+                  className="h-12 w-full bg-white/50 text-black"
                 />
               </div>
               <div className="w-full md:w-48">
@@ -96,13 +96,13 @@ export default function JobsPage() {
                 <Input
                   id="location"
                   placeholder="Location"
-                  className="h-12 w-full bg-white text-black"
+                  className="h-12 w-full bg-white/50 text-black"
                 />
               </div>
               <Button
                 type="submit"
                 size="lg"
-                className="h-12 bg-green-600 hover:bg-green-700"
+                className="h-12 bg-white text-black hover:bg-[#a1a484]/90"
               >
                 <Search className="mr-2 h-5 w-5" />
                 Search Jobs
@@ -130,7 +130,12 @@ export default function JobsPage() {
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary">{job.type}</Badge>
+                    <Badge
+                      variant="secondary"
+                      className="bg-[#a1a484] text-white"
+                    >
+                      {job.type}
+                    </Badge>
                     <Badge variant="outline">{job.category}</Badge>
                   </div>
                 </CardContent>
@@ -164,10 +169,10 @@ export default function JobsPage() {
               (category, index) => (
                 <Card
                   key={index}
-                  className="text-center hover:bg-green-50 hover:shadow-md transition-all duration-300"
+                  className="text-center hover:bg-[#82b8c2] hover:shadow-md transition-all duration-300"
                 >
                   <CardContent className="pt-6">
-                    <Briefcase className="mx-auto mb-4 h-12 w-12 text-green-600" />
+                    <Briefcase className="mx-auto mb-4 h-12 w-12 text-[#63a1c4]" />
                     <h3 className="text-lg font-semibold">{category}</h3>
                     <p className="mt-2 text-sm text-muted-foreground">
                       Explore jobs in {category}
@@ -215,7 +220,7 @@ export default function JobsPage() {
             </div>
             <div className="relative aspect-square overflow-hidden rounded-lg md:aspect-auto">
               <Image
-                src="/placeholder.svg"
+                src="/business2.jpg"
                 alt="Happy professionals working together"
                 fill
                 className="object-cover"
@@ -254,7 +259,7 @@ export default function JobsPage() {
             ].map((resource, index) => (
               <Card key={index}>
                 <CardHeader>
-                  <resource.icon className="mb-4 h-12 w-12 text-green-600" />
+                  <resource.icon className="mb-4 h-12 w-12 text-[#63a1c4]" />
                   <CardTitle>{resource.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -263,7 +268,7 @@ export default function JobsPage() {
                   </p>
                 </CardContent>
                 <CardFooter>
-                  <Button variant="link" className="px-0 text-green-700">
+                  <Button variant="link" className="px-0 text-[#63a1c4]">
                     Learn More
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
@@ -275,12 +280,12 @@ export default function JobsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-green-800 px-4 py-16 text-white md:py-24">
+      <section className="bg-[#a25f35] px-4 py-16 text-white md:py-24">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="mb-6 text-3xl font-bold md:text-4xl">
             Ready to Take the Next Step in Your Career?
           </h2>
-          <p className="mb-8 text-lg text-green-50">
+          <p className="mb-8 text-lg text-white">
             Join thousands of professionals who have found their dream jobs
             through Bamhire. Let&apos;s start your journey to a fulfilling
             career today.
@@ -290,14 +295,14 @@ export default function JobsPage() {
               asChild
               size="lg"
               variant="outline"
-              className="bg-white text-green-800 hover:bg-green-50"
+              className="bg-white text-[#a25f35] hover:bg-green-50"
             >
               <Link href="/register">Create an Account</Link>
             </Button>
             <Button
               asChild
               size="lg"
-              className="bg-green-600 hover:bg-green-700"
+              className="bg-[#a1a484] hover:bg-[#ae7a52]"
             >
               <Link href="/all-jobs">Browse All Jobs</Link>
             </Button>
